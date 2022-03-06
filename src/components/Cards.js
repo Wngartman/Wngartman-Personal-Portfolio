@@ -22,9 +22,9 @@ function Cards() {
                                         <img src={process.env.PUBLIC_URL + '/images/picture of me.jpg'} class="img-fluid mt-3 mb-4" alt='sss' /></span>
                                 </div>
                                 <div class="card-body px-sm-4 mb-3">
-                                    <h6>William Gartman</h6>
-                                    <p class="text-muted"> If you've forgotten your login details we're here to help Mon-Fri 8am-8pm </p>
-                                    <p class="text-muted"> Send us an <span class="email">email</span> or give us call on <b>0800 002 9242</b> </p>
+                                    <h5>William Gartman</h5>
+                                    <p class="text-muted"> I am resourceful, adaptable and a team player and I love seeing things built from the ground up. </p>
+                                    <p class="text-muted"> Send me an email at wngartman@gmail.com if you have any questions! </p>
                                     <div class="row justify-content-end mt-4 ">
                                         <div class="col-auto"><button type="button" class="btn btn-success px-5 " data-dismiss="modal">OK</button></div>
                                     </div>

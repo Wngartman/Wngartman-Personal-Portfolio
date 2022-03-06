@@ -1,0 +1,104 @@
+/* This is what I used to import the poppins font from google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Global selectors */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* The UL container CSS */
+.navLinks {
+    list-style: none;
+}
+
+/* The about section container */
+aside {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    background: gray;
+    border: solid;
+}
+
+/* The header for the aside */
+.asideHeader {
+    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    background: gray;
+}
+
+/* All of the CSS for the About Section Image */
+#profilePic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: 0px 0px;
+    border-style: solid;
+    margin-left: 1%;
+}
+
+/* The paragraph CSS for the About section */
+#asideP {
+    font-size: 20px;
+    margin-top: 5px;
+    background: gray;
+}
+
+/* Projects CSS */
+/* .projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+} */
+
+/* Each project card */
+
+#projects{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.card {
+  /*float: left;*/
+  max-width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  flex-basis: 33.333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  width: 100%;
+}
+
+.card-text {
+  font-size: 85%;
+}

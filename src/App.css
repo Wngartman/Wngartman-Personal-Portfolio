@@ -27,8 +27,10 @@
 .navbar {
   font-size: 125%;
   padding-left: 10% !important;
-  background-color: #000000 !important;
+  background-color: #212529 !important;
   color: #fff !important;
+  border-style: solid;
+  border-color: #1b1e20;
 }
 a.nav-link {
   color: #fff !important;
@@ -102,7 +104,7 @@ aside {
   /*float: left;*/
   max-width: 75%;
   padding: 1rem;
-  margin: 1rem;
+  margin: 2rem;
   border: 0;
   flex-basis: 33.333%;
   flex-grow: 1;
@@ -152,10 +154,6 @@ aside {
 
 /* Modal About Me */
 
-.container {
-  margin-top: 250px !important
-}
-
 p {
   color: #9E9E9E;
   font-size: calc(13px + (16 - 13) * ((100vw - 360px) / (1600 - 360))) !important
@@ -172,13 +170,13 @@ button:focus {
 .modal-content {
   background-color: transparent !important;
 }
-.card {
+/* .card {
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 .img-fluid {
   width: 65rem !important;
@@ -239,9 +237,9 @@ button:focus {
   }
 
   .card {
-    max-width: 75%;
+    max-width: 100%;
     padding: 1rem;
-    margin: 2px;
+    margin: 1rem;
     border: 0;
     flex-basis: 100%;
     flex-grow: 1;

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wngartman-Personal-Portfolio/static/css/main.765328e7.css",
+    "main.js": "/Wngartman-Personal-Portfolio/static/js/main.ad05c3b1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Wngartman-Personal-Portfolio/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Wngartman-Personal-Portfolio/index.html",
+    "main.765328e7.css.map": "/Wngartman-Personal-Portfolio/static/css/main.765328e7.css.map",
+    "main.ad05c3b1.js.map": "/Wngartman-Personal-Portfolio/static/js/main.ad05c3b1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Wngartman-Personal-Portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.765328e7.css",
+    "static/js/main.ad05c3b1.js"
+  ]
+}

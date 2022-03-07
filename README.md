@@ -8,6 +8,7 @@
 * [Contributors](#Contributors)
 
 ## Usage
+https://wngartman.github.io/Wngartman-Personal-Portfolio/
 If you would like to see the about section just click the about section button in the nav bar
 
 ## Contributors

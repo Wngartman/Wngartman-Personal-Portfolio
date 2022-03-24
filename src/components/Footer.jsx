@@ -1,47 +1,44 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Footer() {
-  <footer class="bg-dark text-center text-white">
-    {/* <!-- Grid container --> */}
-    <div class="container p-4 pb-0">
-      {/* <!-- Section: Social media --> */}
-      <section class="mb-4">
-        {/* <!-- Github --> */}
+  return (
+    <footer id="learn-more" className="bg-dark text-center text-white">
+      <div className="container p-4 pb-0">
+        <section className="mb-4">
+          <a
+            className="btn btn-outline-light btn-floating m-1"
+            href="https://github.com/Wngartman"
+            role="button"
+          >
+            <i className="fa-brands fa-github"></i>
+          </a>
+          <a
+            className="btn btn-outline-light btn-floating m-1"
+            href="https://www.linkedin.com/in/william-gartman-23900a226/"
+            role="button"
+          >
+            <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a
+            className="btn btn-outline-light btn-floating m-1"
+            href="https://docs.google.com/document/d/1z_pnMnic33pmVvBC82O1X9pYpFvxV35yI7QU3ouRp6w/edit?usp=sharing"
+            role="button"
+          >
+            <i className="fa-regular fa-file-lines"></i>
+          </a>
+        </section>
+      </div>
+
+      <div class="footBack text-center p-3">
+        © 2022 Copyright:
         <a
-          class="btn btn-outline-light btn-floating m-1"
-          href="https://github.com/Wngartman"
-          role="button"
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a
-          class="btn btn-outline-light btn-floating m-1"
+          className="text-white"
           href="https://www.linkedin.com/in/william-gartman-23900a226/"
-          role="button"
         >
-          <i class="fa-brands fa-linkedin"></i>
+          William Gartman
         </a>
-        <a
-          class="btn btn-outline-light btn-floating m-1"
-          href="https://my.indeed.com/p/williamg-wbrid6z"
-          role="button"
-        >
-          <i class="fa-brands fa-user"></i>
-        </a>
-      </section>
-      {/* <!-- Section: Social media --> */}
-    </div>
-    {/* <!-- Grid container --> */}
-
-    {/* <!-- Copyright --> */}
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2022 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">
-        William Gartman
-      </a>
-    </div>
-    {/* <!-- Copyright --> */}
-  </footer>;
+      </div>
+    </footer>
+  );
 }
-
 export default Footer;

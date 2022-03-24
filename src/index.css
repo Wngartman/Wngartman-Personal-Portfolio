@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("https://cdn.pixabay.com/photo/2017/06/21/07/33/background-2426328_960_720.jpg");
+  background: #221f1f !important;
 }
 
 code {
@@ -22,14 +22,13 @@ code {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
 .navbar {
   font-size: 125%;
   padding-left: 10% !important;
-  background-color: #212529 !important;
+  padding-top: 2rem !important;
+  padding-bottom: 3rem !important;
+  background-color: #221f1f !important;
   color: #fff !important;
-  border-style: solid;
-  border-color: #1b1e20;
 }
 a.nav-link {
   color: #fff !important;
@@ -59,6 +58,22 @@ aside {
   background: gray;
 }
 
+.pageHead {
+  color: white !important;
+}
+.aboutSec {
+  padding-bottom: 48px !important;
+  justify-items: center !important;
+}
+.picOfMe {
+  border-radius: 10%;
+  border: 2px solid white;
+}
+
+.contact-btn {
+  color: white !important;
+}
+
 /* All of the CSS for the About Section Image */
 #profilePic {
   width: 100px;
@@ -86,22 +101,28 @@ aside {
   overflow-x: auto;
   overflow-y: hidden;
   justify-content: center;
-
   /* width: 75%; */
 }
 
 .card {
   /*float: left;*/
-  max-width: 75%;
+  max-width: 80%;
   padding: 1rem;
   margin: 2rem;
   border: 0;
-  flex-basis: 33.333%;
+  flex-basis: 25%;
   flex-grow: 1;
   flex-shrink: 0;
-  border-radius: 100%;
+  background-color: transparent !important;
+  color: white;
+  border-color: white !important;
 }
-
+.footBack {
+  background-color: #263238;
+}
+/* #learn-more {
+  background-color: #242726 !important;
+} */
 .card > img {
   margin-bottom: 0.75rem;
   width: 100%;
@@ -119,27 +140,12 @@ aside {
   order: -1;
   flex-basis: 100%;
 }
-
+/* .projects {
+  background-color: #242726 !important;
+} */
 .btn {
-  background-color: rgb(65, 65, 65) !important;
-  border-color: black !important;
-}
-
-.carousel {
-  display: flex;
-  /* padding: 1rem; */
-  /* margin: 1rem; */
-  border: 0;
-  flex-basis: 33.333%;
-  flex-grow: 1;
-  flex-shrink: 1;
-  border-radius: 100%;
-}
-
-.carousel-inner .carousel-item {
-  transition: -webkit-transform 0.2s ease;
-  transition: transform 0.2s ease;
-  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+  background-color: #263238 !important;
+  border-color: transparent !important;
 }
 
 /* Modal About Me */
@@ -216,6 +222,7 @@ button:focus {
     overflow-x: auto;
     overflow-y: hidden;
     justify-content: center;
+
     /* text-align: center; */
   }
 

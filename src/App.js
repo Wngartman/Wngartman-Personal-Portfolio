@@ -1,6 +1,6 @@
-import './App.css';
-import Cards from './components/Cards';
-import HomePage from './components/HomePage';
+import "./index.css";
+import Cards from "./components/Cards";
+import HomePage from "./components/HomePage";
 
 function App() {
   return (

@@ -92,7 +92,7 @@ function Cards() {
                             <h5 className="card-title">Placeholder</h5>
                             <p className="card-text">A web application to allow users to search for a plant and get more info on said plant.</p>
                             <a href="https://sankeatan.github.io/Gardenify/" className="btn btn-primary">Gardenify Website</a>
-                            <a href="https://sankeatan.github.io/Gardenify/" className="btn btn-primary">Github Repository</a>
+                            <a href="https://sankeatan.github.io/Gardenify/ " className="btn btn-primary">Github Repository</a>
                         </div>
 
                     </div>

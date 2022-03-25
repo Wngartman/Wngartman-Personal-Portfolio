@@ -5,7 +5,7 @@ function HomePage() {
   return (
     <header className="pageHead">
       <nav className="navbar navbar-expand-lg navbar-dark">
-        <a className="navbar-brand">William Gartman</a>
+        <a className="navbar-brand will-brand">William Gartman</a>
         <button
           className="navbar-toggler"
           type="button"
@@ -32,8 +32,8 @@ function HomePage() {
           </ul>
         </div>
       </nav>
-      <div className="container my-5">
-        <div className="aboutSec row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div className="container aboutSec my-5">
+        <div className=" row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
           <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h1 className="display-4 fw-bold lh-1">
               Hello! I'm William Gartman
@@ -50,11 +50,13 @@ function HomePage() {
                 type="button"
                 className="contact-btn btn btn-outline-secondary btn-lg px-4"
               >
-                Contact Me
+                <a id="email" href="mailto:boobooaroo@gmail.com">
+                  Contact Me
+                </a>
               </button>
             </div>
           </div>
-          <div className="col-lg-4 offset-lg-0 p-5 overflow-hidden">
+          <div className="pic col-lg-4 offset-lg-0 p-5 overflow-hidden">
             <img
               className="rounded-lg-4 picOfMe"
               src={process.env.PUBLIC_URL + "/images/pictureofme.jpg"}

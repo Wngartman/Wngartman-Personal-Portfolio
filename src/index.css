@@ -1,5 +1,6 @@
 /* This is what I used to import the poppins font from google */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto&display=swap");
 
 body {
   margin: 0;
@@ -22,11 +23,14 @@ code {
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+.navbar-expand-lg {
+  align-items: center !important;
+}
 .navbar {
   font-size: 125%;
-  padding-left: 10% !important;
-  padding-top: 2rem !important;
-  padding-bottom: 3rem !important;
+  padding-left: 5% !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   background-color: #221f1f !important;
   color: #fff !important;
 }
@@ -70,6 +74,9 @@ aside {
   border: 2px solid white;
 }
 
+.will-brand {
+  /* font-size: 60px !important; */
+}
 .contact-btn {
   color: white !important;
 }
@@ -84,12 +91,11 @@ aside {
   margin-left: 1%;
 }
 
-/* The paragraph CSS for the About section */
-#asideP {
-  font-size: 20px;
-  margin-top: 5px;
-  background: gray;
+#email {
+  text-decoration: none !important;
+  color: #fff;
 }
+/* The paragraph CSS for the About section */
 
 /* Each project card */
 

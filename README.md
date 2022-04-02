@@ -6,7 +6,7 @@ My personal portfolio designed to share and desplay some of my recent projects a
 
 ## Screenshot
 
-(public\images\Portfolio.png)
+(/public/images/Portfolio.png)
 
 ## Usage
 

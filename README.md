@@ -1,8 +1,12 @@
 # Wngartman-Personal-Portfolio
 
-[Description] My personal portfolio designed to share and desplay some of my recent projects and activities.
+## Description
 
-[Screenshot] (C:\Users\wngar\Documents\UCF\in_class\homework\Wngartman-Personal-Portfolio\public\images\Portfolio.png)
+My personal portfolio designed to share and desplay some of my recent projects and activities.
+
+## Screenshot
+
+(public\images\Portfolio.png)
 
 ## Usage
 

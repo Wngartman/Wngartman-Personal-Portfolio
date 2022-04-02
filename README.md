@@ -4,9 +4,7 @@
 
 My personal portfolio designed to share and desplay some of my recent projects and activities.
 
-## Screenshot
-
-(https://github.com/Wngartman/Wngartman-Personal-Portfolio/blob/main/public/images/Portfolio.png)
+!['Screenshot'](https://github.com/Wngartman/Wngartman-Personal-Portfolio/blob/main/public/images/Portfolio.png)
 
 ## Usage
 

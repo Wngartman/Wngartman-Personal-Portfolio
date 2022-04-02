@@ -1,19 +1,18 @@
 # Wngartman-Personal-Portfolio
 
-[Description] My personal portfolio designed to share all of my recent projects and activities.
+[Description] My personal portfolio designed to share and desplay some of my recent projects and activities.
 
-### Table of Contents
-
-* [Usage](#Usage)
-* [Contributors](#Contributors)
+[Screenshot] (C:\Users\wngar\Documents\UCF\in_class\homework\Wngartman-Personal-Portfolio\public\images\Portfolio.png)
 
 ## Usage
+
 https://wngartman.github.io/Wngartman-Personal-Portfolio/
-If you would like to see the about section just click the about section button in the nav bar
+All my social links are in the footer of the page.
 
 ## Contributors
+
 wngartman
 
 ## Questions
-For more questions contact wngartman@gmail.com
 
+For more questions contact wngartman@gmail.com

@@ -29,6 +29,14 @@ function HomePage() {
                 Projects
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                className="nav-link"
+                href="https://drive.google.com/file/d/1dOhrO_lgLvoOsmA6xSDqcffuEPpQLC16/view?usp=sharing"
+              >
+                Resume
+              </a>
+            </li>
           </ul>
         </div>
       </nav>

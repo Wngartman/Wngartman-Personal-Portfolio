@@ -21,7 +21,7 @@ function Footer() {
           </a>
           <a
             className="btn btn-outline-light btn-floating m-1"
-            href="https://docs.google.com/document/d/1z_pnMnic33pmVvBC82O1X9pYpFvxV35yI7QU3ouRp6w/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1dOhrO_lgLvoOsmA6xSDqcffuEPpQLC16/view?usp=sharing"
             role="button"
           >
             <i className="fa-regular fa-file-lines"></i>
